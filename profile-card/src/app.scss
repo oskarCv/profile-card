@@ -1,0 +1,40 @@
+.app {
+  font: 18px "Nunito", san-serif;
+  color: black;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    &::before {
+      content: '';
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+    }
+}
+
+.profile-card{
+    box-shadow: 0 18px 200px -60px silver;
+    border-radius: 50px;
+    width: 650px;
+    position: relative;
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @media screen and (max-width){
+        width: auto;
+    }
+    &__img img{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 10px 60px -10px rgba(240, 220, 200, .5);
+    }
+}
