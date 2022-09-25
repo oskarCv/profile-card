@@ -1,5 +1,7 @@
 import React from "react";
 import profileImage from "../assets/image/linkedinProfile.jpeg";
+import './profile.scss';
+
 export default function Profile() {
   return (
     <div className="profile-card">
