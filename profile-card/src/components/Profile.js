@@ -10,7 +10,7 @@ export default function Profile() {
       <div className="profile-card__desc">
         <h1>Oscar Chavez</h1>
         <div>Full stack developer</div>
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px", justifyContent: "center" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-map-pin"
